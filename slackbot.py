@@ -227,7 +227,7 @@ def main():
     http = drive_credentials.authorize(httplib2.Http())
     drive_service = discovery.build('drive', 'v3', http=http)
 
-    slack_token = "xoxb-255870397921-g0x0ZjnZ2WUiwvJ7e2T55eMu"
+    slack_token = ""
     sc = SlackClient(slack_token)
 
     # stuff = sc.api_call(
